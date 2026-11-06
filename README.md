@@ -1,113 +1,82 @@
-# 📊 Data Analytics Project
+# 🛍️ Customer Shopping Behavior Analysis — End-to-End Data Analytics Project
 
-# Customer_Shopping_Behavior_Analysis
-Data Analytics Project showcasing Customer Shopping Behavior Analysis using Python, SQL, Postgre and PowerBI .  
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![SQL](https://img.shields.io/badge/SQL-PostgreSQL-336791.svg)](https://www.postgresql.org/)
+[![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811.svg)](https://powerbi.microsoft.com/)
 
-## 📌 About the Project
+> An end-to-end Data Analytics project analyzing retail transactional data to uncover customer demographic trends, promotional effectiveness, loyalty tiers, and purchasing patterns across 3,900 consumer profiles.
 
-This is an end-to-end Data Analytics Project that focuses on analyzing raw data and converting it into meaningful business insights.
+---
 
-The project uses Python for data cleaning and analysis, SQL for querying data, and Power BI for creating an interactive dashboard. A project report and presentation are also created to explain the findings.
+## 🌐 Live Interactive Streamlit Web App
+The project has been converted into an interactive web dashboard built with **Streamlit** and **Plotly**.
+- **Run Locally:** `streamlit run app.py`
+- **Cloud Deployment:** Streamlit Community Cloud
 
-## 📂 Dataset
+---
 
-- Dataset Name: Customer Shopping Behavior Dataset
-- File Format: CSV / Excel
-- Data Source: GitHub
+## 📌 Business Objectives & Key Insights
 
-## 🛠️ Tools Used
+1. **Revenue Distribution:** Analyzed male vs. female revenue splits across four core categories (Clothing, Footwear, Outerwear, Accessories).
+2. **Promotional Optimization:** Evaluated high-spending customers utilizing discounts who still exceed the average order value ($59.76).
+3. **Product Ratings:** Identified top 5 items with the highest customer review ratings.
+4. **Shipping Performance:** Compared average ticket sizes across standard, express, next day air, and free shipping.
+5. **Subscription Valuation:** Analyzed average spend and total revenue contributions from subscribed vs non-subscribed customers.
+6. **Customer Segmentation:** Segmented buyers into **New** (1 order), **Returning** (2-10 orders), and **Loyal** (>10 orders) to measure lifetime retention.
+7. **Geographic Distribution:** Interactive US choropleth mapping state-by-state shopping trends across all 50 states.
 
-- **Python:** Data analysis and cleaning
-- **Pandas & NumPy:** Data processing
-- **Matplotlib & Seaborn:** Data visualization
-- **SQL:** Data querying and analysis
-- **Power BI:** Dashboard creation
-- **Gamma AI:** Presentation creation
-- **Jupyter Notebook:** Python coding
+---
 
-## 🔄 Project Steps
+## 🛠️ Tech Stack & Tools
 
-1. **Load Data:** Import the dataset into Python.
-2. **EDA:** Explore the data and understand patterns and trends.
-3. **Data Cleaning:** Handle missing values, duplicates and incorrect data.
-4. **SQL Analysis:** Write SQL queries to find useful information.
-5. **Power BI Dashboard:** Create an interactive dashboard using charts, graphs and KPIs.
-6. **Project Report:** Prepare a report explaining the analysis and findings.
-7. **Presentation:** Create a professional PPT using Gamma AI.
+- **Programming:** Python (Pandas, NumPy)
+- **Interactive App & Visualization:** Streamlit, Plotly Express & Graph Objects
+- **Database Analysis:** PostgreSQL (Advanced SQL with CTEs, Window Functions, Aggregate Joins)
+- **Business Intelligence:** Microsoft Power BI (`customer_behavior_dashboard.pbix`)
+- **Presentation & Documentation:** PowerPoint, Gamma AI, Business Problem Spec
 
-## 📊 Dashboard
+---
 
-The Power BI dashboard presents important information through:
+## 📂 Repository Structure
 
-- KPI Cards
-- Charts and Graphs
-- Trend Analysis
-- Data Comparisons
-- Interactive Filters
-
-**Dashboard Screenshot:**
-
-<img width="584" height="326" alt="Screenshot 2026-11-06 180332" src="https://github.com/user-attachments/assets/efae5b0a-99cd-4ef2-aab4-a24f88e9fcd0" />
-
-
-## 📈 Results
-
-- Cleaned and analyzed the dataset using Python.
-- Identified useful patterns and trends through EDA.
-- Extracted insights using SQL queries.
-- Created an interactive Power BI dashboard.
-- Prepared a project report and presentation.
-
-## ▶️ How to Run
-
-**Step 1:** Clone the repository.
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+```text
+├── app.py                                   # Full interactive Streamlit Web Dashboard
+├── requirements.txt                         # Dependencies for Streamlit Cloud deployment
+├── customer_shopping_behavior.csv           # Transactional dataset (3,900 records)
+├── Customer_Shopping_Behavior_Analysis.ipynb# Jupyter Notebook for EDA & Data Cleaning
+├── customer_behavior_sql_queries_Postgre.sql# 10 core PostgreSQL business questions
+├── customer_behavior_dashboard.pbix         # Power BI interactive report
+├── Dashboard_ss.png                         # Power BI dashboard screenshot
+├── Business Problem Document.pdf            # Business context documentation
+├── Customer Shopping Behavior Analysis.pdf  # Project analytical report
+└── Customer-Shopping-Behavior-Analysis.pptx # Project presentation deck
 ```
 
-**Step 2:** Install the required Python libraries.
+---
 
-```bash
-pip install pandas numpy matplotlib seaborn
-```
+## 🚀 How to Run Locally
 
-**Step 3:** Open Jupyter Notebook.
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/krishna10kkc/Customer_Shopping_Behavior_Analysis.git
+   cd Customer_Shopping_Behavior_Analysis
+   ```
 
-```bash
-jupyter notebook
-```
+2. **Install required dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-**Step 4:** Open and run the Python notebook.
+3. **Launch the Streamlit app:**
+   ```bash
+   streamlit run app.py
+   ```
 
-**Step 5:** Execute the SQL queries using your selected database (PostgreSQL, MySQL or SQL Server).
-
-**Step 6:** Open the Power BI `.pbix` file to explore the dashboard.
-
-## 📁 Project Files
-
-- `Dataset/` – Original and cleaned datasets
-- `Python/` – Python notebook
-- `SQL/` – SQL queries
-- `PowerBI/` – Power BI dashboard
-- `Report/` – Project report
-- `Presentation/` – Project PPT
-- `screenshots/` – Dashboard images
-
-## 🚀 Future Improvements
-
-- Automate data analysis.
-- Add more interactive dashboard features.
-- Use advanced analytics techniques.
-- Generate automated reports.
+---
 
 ## 👨‍💻 Author
 
 **Krishna Kumar Chaurasia**
-
-- GitHub: https://github.com/krishna10kkc
-- LinkedIn: https://linkedin.com/in/krishna-kumar-chaurasia-3154a132b
-
----
-
-⭐ If you find this project useful, don't forget to star the repository!
+- 🐙 GitHub: [@krishna10kkc](https://github.com/krishna10kkc)
+- 💼 LinkedIn: [Krishna Kumar Chaurasia](https://linkedin.com/in/krishna-kumar-chaurasia-3154a132b)
