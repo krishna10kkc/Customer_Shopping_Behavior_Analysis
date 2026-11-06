@@ -74,6 +74,9 @@ The project has been converted into an interactive web dashboard built with **St
    ```
 
 ---
+## Streamlit App URL ##
+
+URL : https://customershoppingbehavioranalysis-kkc.streamlit.app/
 
 ## 👨‍💻 Author
 
