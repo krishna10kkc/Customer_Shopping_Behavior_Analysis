@@ -47,7 +47,8 @@ The Power BI dashboard presents important information through:
 
 **Dashboard Screenshot:**
 
-![Power BI Dashboard](Dashboard_ss.png)
+<img width="584" height="326" alt="Screenshot 2026-11-06 180332" src="https://github.com/user-attachments/assets/efae5b0a-99cd-4ef2-aab4-a24f88e9fcd0" />
+
 
 ## 📈 Results
 
